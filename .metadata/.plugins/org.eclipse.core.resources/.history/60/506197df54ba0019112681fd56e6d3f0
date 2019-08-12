@@ -1,0 +1,21 @@
+package aplications;
+
+import entities.Account;
+
+public class Banco {
+
+	public static void main(String[] args) {
+		
+		String apelido = "peterson";
+		
+		
+		int balance = 30;
+		Account acc = new Account();
+		acc.setBalance((double)balance);
+		acc.setName(apelido);
+
+		System.out.println("CLIENT: " + acc.getName());
+		System.out.println("BALANCE: " + acc.getBalance());
+	}
+
+}

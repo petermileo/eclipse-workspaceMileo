@@ -1,0 +1,24 @@
+package topicosBasicos;
+
+public class OperadoresAritmeticos {
+
+	public static void main(String[] args) {
+		 int numeroUm , numeroDois = 2;
+		 double restoDiv = 0;
+		 
+		 
+		 
+		 for(numeroUm = 1; numeroUm <= 10; numeroUm++) {
+			 restoDiv = (numeroUm % numeroDois);
+			 
+			 System.out.println("Numero %d, Resto %2.f"+numeroUm, restoDiv);
+			 
+			 
+		 }
+		 
+		 System.out.println(restoDiv);
+
+	}
+	
+
+}

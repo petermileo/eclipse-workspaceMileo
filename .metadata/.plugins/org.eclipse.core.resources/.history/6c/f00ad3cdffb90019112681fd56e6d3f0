@@ -1,0 +1,15 @@
+package course;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		long x2 = 12122222222223L;
+		byte x = 127;
+		boolean completed = false;
+		char letter = 65;
+		System.out.println(letter);
+
+	}
+
+}

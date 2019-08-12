@@ -1,0 +1,13 @@
+package course;
+
+public class Program {
+
+	public static void main(String[] args) {
+		byte x = 127;
+		boolean completed = false;
+		char gender = 65;
+		System.out.println(gender);
+
+	}
+
+}

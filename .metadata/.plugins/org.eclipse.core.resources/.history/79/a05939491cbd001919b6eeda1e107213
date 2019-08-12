@@ -1,0 +1,15 @@
+package topicosBasicos;
+
+public class EstudoOperadoresAtribuicao {
+
+	public static void main(String[] args) {
+		double n1 = 10;
+		double n2 = 20;
+		String palavra = "PETERSON";
+		
+		palavra *= " MILEO";
+		System.out.println(palavra);
+
+	}
+
+}

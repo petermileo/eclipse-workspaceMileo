@@ -1,0 +1,15 @@
+package topicosBasicos;
+
+public class conversaoECasting {
+
+	public static void main(String[] args) {
+		
+		char a = 'A';
+		int b = (char)a;
+		
+		System.out.println(b);
+		
+		
+	}
+
+}

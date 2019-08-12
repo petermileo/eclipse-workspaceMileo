@@ -1,0 +1,12 @@
+package course;
+
+public class Program {
+
+	public static void main(String[] args) {
+		byte x = 127;
+		boolean completed = false;
+		System.out.println(completed);
+
+	}
+
+}

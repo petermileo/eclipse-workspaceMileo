@@ -1,0 +1,15 @@
+package aplications;
+
+import entities.Account;
+
+public class Banco {
+
+	public static void main(String[] args) {
+		double balance = 30;
+		Account acc = new Account();
+		acc.setBalance(balance);
+
+		System.out.println(acc.getBalance());
+	}
+
+}
